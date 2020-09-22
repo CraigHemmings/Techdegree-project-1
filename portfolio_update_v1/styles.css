@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/birmingham.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -98,6 +98,24 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
+
+.courier {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 8000px;
+  text-align: center;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+
+figcaption {
+    text-align: center;
+    color: mediumblue;
+    font-weight: bold;
+  }
+
 .card:hover {
   border-color: #ff99ff;
 }
@@ -108,6 +126,15 @@ ul.skills {
 }
 
 .skills li {
+  border-radius: 6px;
+  display: inline-block;
+  background: #ff9904;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+.hobbies {
   border-radius: 6px;
   display: inline-block;
   background: #ff9904;
@@ -177,6 +204,15 @@ a.social:hover {
       -ms-flex-pack: distribute;
       justify-content: space-around;
       margin: 0 auto;
+  }
+
+  .experience {
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: flex; 
+    max-width: 1200px;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin: 0 auto;
   }
 
   header {
